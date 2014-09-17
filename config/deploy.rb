@@ -1,7 +1,8 @@
 lock '3.1.0'
 # application name and the github repository
 set :application, 'railsapptest'
-set :repo_url, 'https://github.com/malinda92/railstest.git'
+# set :repo_url, 'https://github.com/malinda92/railstest.git'
+set :repo_url, 'git@github.com:malinda92/railstest.git’
 
 # describe the rbenv environment we are deploying into
 set :rbenv_type, :user
