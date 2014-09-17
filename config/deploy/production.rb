@@ -9,7 +9,7 @@ set :deploy_user, "railsadmin"
 # set :full_app_name, "#{fetch(:application)}_#{fetch(:stage)}"
 set :full_app_name, "railsapptest"
 # the server(s) to deploy to
-server 'railsapptest.cloudapp.net', user: 'railsadmin', password: 'intel@123’, roles: %w{web app db}, primary: true
+server 'railsapptest.cloudapp.net', user: 'railsadmin', roles: %w{web app db}, primary: true
 # the path to deploy to
 set :deploy_to, "/home/#{fetch(:deploy_user)}/apps/#{fetch(:full_app_name)}"
 # set to production for Rails
