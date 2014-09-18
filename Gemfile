@@ -41,7 +41,7 @@ gem 'spring',        group: :development
 # Use Unicorn
 gem 'unicorn'
 # Use PostgreSQL
-#gem 'pg', group: :production
+# gem 'pg', group: :production
 
 group :development do
   # Use Capistrano for deployment
@@ -50,5 +50,5 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-rbenv', '~> 2.0'
   gem 'capistrano-unicorn-nginx', '~> 2.0'
-  #gem 'capistrano-postgresql', '~> 3.0'
+  # gem 'capistrano-postgresql', '~> 3.0'
 end
