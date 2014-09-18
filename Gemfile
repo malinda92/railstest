@@ -41,7 +41,7 @@ gem 'spring',        group: :development
 # Use Unicorn
 gem 'unicorn'
 # Use PostgreSQL
-# gem 'pg', group: :production
+gem 'pg', group: :production
 
 group :development do
   # Use Capistrano for deployment
